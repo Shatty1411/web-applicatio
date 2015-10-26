@@ -4,13 +4,14 @@
 echo "HELLO" . $EARTH;
 ?>
 
+<br>
 http://web53285.azurewebsites.net//helloPrinter.php?planet=Earth
 <?php
 $HELLO = $_GET["HELLO"];
 $Mars= $_GET["Mars"];
 echo "HELLO" . $Mars;
 ?>
-
+<br>
 http://web53285.azurewebsites.net/helloPrinter.php?planet=Mars
 <?php
 $HELLO = $_GET["HELLO"];
